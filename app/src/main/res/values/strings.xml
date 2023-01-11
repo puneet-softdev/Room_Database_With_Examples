@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Room_db_with_example</string>
+    <string name="welcome_mr_puneet_from_karnal">Welcome Mr. Puneet From Karnal</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="fill_the_data">Fill The Data</string>
+    <string name="submit">Submit</string>
+</resources>
