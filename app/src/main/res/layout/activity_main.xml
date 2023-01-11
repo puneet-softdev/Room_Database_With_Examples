@@ -63,6 +63,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:layout_marginStart="@dimen/dimen_10"
+        android:layout_marginEnd="@dimen/dimen_10"
         android:text="@string/welcome_mr_puneet_from_karnal"
         android:textColor="@color/black"
         android:textSize="@dimen/font_20"
@@ -70,7 +72,7 @@
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnDelete" />
+        app:layout_constraintTop_toBottomOf="@+id/btnShow" />
 
     <Button
         android:id="@+id/btnDelete"
@@ -85,7 +87,6 @@
         android:id="@+id/btnShow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
         android:text="Show All"
         app:layout_constraintEnd_toEndOf="@+id/btnDelete"
         app:layout_constraintStart_toStartOf="@+id/btnDelete"

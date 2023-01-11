@@ -80,7 +80,6 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     usersList.forEach { user ->
                         val name = user.name
-                        val address = user.address
                         val data = "Welcome $name To CodingWithPuneet"
                         activityMainBinding.tvWelcome.isVisible = true
                         activityMainBinding.tvWelcome.text = data
