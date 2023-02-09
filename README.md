@@ -12,3 +12,7 @@ This Repo intention is to make you all understand the Basics of Room database wi
 "prepopulate_db" Branch covers:-
 
 1. Prepopulating the database when it gets created
+
+"migration_db" Branch coveres:-
+
+1. Migration strategy to migrate DB from version 1 to 2
